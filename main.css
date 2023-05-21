@@ -1,0 +1,26 @@
+.top {
+    width: 250px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    position: relative;
+    
+}
+img {
+    width: 60px;
+    margin-left: 30px;
+    
+}
+
+.top p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.top:hover {
+    background-color: rgb(49, 51, 53);
+}
